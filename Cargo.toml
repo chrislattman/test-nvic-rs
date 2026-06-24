@@ -1,0 +1,10 @@
+[package]
+name = "test-nvic-rs"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+cortex-m = "0.7.7"
+fugit = "0.3.9"
+rp235x-hal = "0.4.0"
+rtic = { version = "2.2.0", features = ["thumbv8main-backend"] }
