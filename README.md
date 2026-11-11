@@ -2,7 +2,7 @@
 
 This is essentially a no_std Rust version of https://github.com/chrislattman/test-nvic
 
-It uses `rtic`, which employs Rust's safety features to make mathematical guarantees about interrupt priorities.
+It uses `rtic`, which employs Rust's safety features to make mathematical guarantees about interrupt priorities. RTIC also supports interrupt controllers for other architectures, such as RISC-V's CLIC.
 
 Instructions:
 
